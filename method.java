@@ -1,4 +1,4 @@
-package javalearning;
+
 import java.util.Scanner;
 public class method{
     String unm;

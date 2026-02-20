@@ -42,6 +42,7 @@ class circle extends shape{
         r=inp.nextInt();
         double circle_area=Math.PI*r*r;
         System.out.println("the area of circle is "+circle_area);
+        inp.close();
         
 
 
@@ -57,7 +58,7 @@ class triangle extends shape{
         h=inp.nextInt();
         double triangle_area=0.5*b*h;
         System.out.println("the area of triangle is "+triangle_area);
-
+        inp.close();
 
 
     }
